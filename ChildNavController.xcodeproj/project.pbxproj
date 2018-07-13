@@ -12,6 +12,8 @@
 		FA86849520F91B2A0010072B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86849320F91B2A0010072B /* Main.storyboard */; };
 		FA86849720F91B310010072B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA86849620F91B310010072B /* Assets.xcassets */; };
 		FA86849A20F91B310010072B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86849820F91B310010072B /* LaunchScreen.storyboard */; };
+		FA8684A220F91B5B0010072B /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8684A120F91B5B0010072B /* CustomNavController.swift */; };
+		FA8684A420F922A40010072B /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8684A320F922A40010072B /* ChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA86849620F91B310010072B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA86849920F91B310010072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA86849B20F91B310010072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8684A120F91B5B0010072B /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
+		FA8684A320F922A40010072B /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FA86848F20F91B2A0010072B /* AppDelegate.swift */,
 				FA86849120F91B2A0010072B /* ViewController.swift */,
+				FA8684A120F91B5B0010072B /* CustomNavController.swift */,
+				FA8684A320F922A40010072B /* ChildViewController.swift */,
 				FA86849320F91B2A0010072B /* Main.storyboard */,
 				FA86849620F91B310010072B /* Assets.xcassets */,
 				FA86849820F91B310010072B /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA86849220F91B2A0010072B /* ViewController.swift in Sources */,
+				FA8684A220F91B5B0010072B /* CustomNavController.swift in Sources */,
 				FA86849020F91B2A0010072B /* AppDelegate.swift in Sources */,
+				FA8684A420F922A40010072B /* ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
